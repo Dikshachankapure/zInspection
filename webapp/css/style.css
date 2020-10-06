@@ -1,0 +1,97 @@
+.sapMOHRTitleTextWrappable {
+    font-weight: bold;
+}
+
+.sapMTextLineClamp {
+    font-weight: bold;
+}
+
+.sapMITBTextOnly .sapMITBTab {
+    text-align: right;
+}
+
+.sapMLIB.sapMObjLItem {
+    padding: 1rem;
+    margin: 10px;
+    box-shadow: 0px 2px 8px 0 rgba(0, 0, 0, 0.06);
+    /*, 3px 3px 3px 0 rgba(0, 0, 0, 0.08);*/
+    border-radius: 3px 3px 3px 3px;
+}
+
+.sapUiVlt.sapUiContentPadding {
+    padding: 0px;
+}
+
+.sapUi-Std-PaddingM {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.sapUi-Std-PaddingL {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.sapMITBContent {
+    padding: 1rem;
+    border-bottom: none;
+}
+
+.sapUi-Std-PaddingS {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+}
+
+.sapFDynamicPage-Std-Tablet .sapFDynamicPageContent,
+.sapFDynamicPage-Std-Tablet .sapFDynamicPageContentFitContainer {
+    padding: 0rem 0rem 0 0rem !important;
+}
+
+.sapFDynamicPageContent,
+.sapFDynamicPageContentFitContainer {
+    padding: 0rem 0rem 0 0rem !important;
+}
+
+.sapFDynamicPageTitleWrapper.sapFDynamicPageTitleSnapped>.sapFDynamicPageTitle,
+.sapFDynamicPageTitleWrapper.sapFDynamicPageTitleOnly>.sapFDynamicPageTitle {
+    box-shadow: none !important;
+}
+
+.sapMSplitContainerHideMode>.sapMSplitContainerDetail .sapUiResponsiveMargin,
+.sapUiResponsiveMargin {
+    margin: 0px !important;
+}
+
+.sapMPanelContent {
+    padding: 0px !important;
+}
+
+.sapMPI
+{
+	width:30% !important;
+}
+.lblduration
+
+{
+	font-size: 18px;
+    font-weight: bold;
+}
+.sapMListTblHighlightCol+.sapMListTblHeaderCell, .sapMListTblHighlightCell+.sapMListTblCell{
+
+padding: 0.7rem;	
+
+}
+
+.sapMColumnHeader>.sapMLabel, .sapMColumnHeader>.sapMText, .sapMListTblCell>.sapMSlt>.sapMSltLabel, .sapMListTblCell>.sapMObjectNumber, .sapMListTblCell>.sapMLabel, .sapMListTblCell>.sapMText{
+
+ line-height: 1.5;	
+}
+@media only screen and (max-device-width: 480px) 
+{
+	.sapMPI
+	{
+		width:100% !important;
+	}
+}
+
+

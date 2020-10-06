@@ -1,0 +1,362 @@
+{
+	"SectionsSet": [{
+		"Id": "1",
+		"SectionId": "1",
+		"SectionName": "Planeación y vigilancia",
+		"QuestionsSet": [{
+			"QuestionId": "1",
+			"QuestionText": "Se designa un comité o persona responsable de la implementación, seguimiento y supervisión de las medIdas para la Nueva NormalIdad en el marco del COVId-19. Dicho comité o persona responsable deberá realizar las siguientes activIdades:"
+		}, {
+			"QuestionId": "1.1",
+			"QuestionText": " Lleva a cabo la categorización del centro de trabajo, con el fin de Identificar las medIdas que deberán ser implementadas."
+		}, {
+			"QuestionId": "1.2",
+			"QuestionText": " Se   cerciora   que   las   estrategias   generales   de   control   son correctamente implementadas."
+		}, {
+			"QuestionId": "1.3",
+			"QuestionText": " Se mantiene informado de las indicaciones de la autorIdad federal para, en su caso, comunicar a la población trabajadora sobre nuevas medIdas que deban implementarse."
+		}, {
+			"QuestionId": "1.4",
+			"QuestionText": " Se Identifica a la población en situación de vulnerabilIdad para la implementación de las medIdas de protección necesarias."
+		}, {
+			"QuestionId": "1.5",
+			"QuestionText": " Se constata la correcta implementación de todas las medIdas en la empresa o el centro de trabajo"
+		}]
+	}, {
+		"Id": "1",
+		"SectionId": "2",
+		"SectionName": "MedIdas de ingeniería o estructurales",
+		"QuestionsSet": [
+
+			{
+				"QuestionId": "2",
+				"QuestionText": "El centro de trabajo cuenta con entradas y salIdas exclusivas del personal; en caso de que se cuente con un solo acceso, éste se divIde por barreras físicas a fin de contar con espacios específicos para el ingreso y salIda del personal."
+			}, {
+				"QuestionId": "3",
+				"QuestionText": "En caso de ser posible, cuenta en los accesos al centro de trabajo con tapetes desinfectantes o alternativas similares, o en su caso, se otorgan protectores desechables de calzado."
+			}, {
+				"QuestionId": "4",
+				"QuestionText": "En su caso, los tapetes desinfectantes o alternativas similares hacen uso de hipoclorito de sodio con concentraciones del 0.5%."
+			}, {
+				"QuestionId": "5",
+				"QuestionText": "En su caso, se repone el líquIdo desinfectante de los tapetes desinfectantes cada que lo requieren; en caso de jergas saturadas con hipoclorito de sodio al 0.5%, se asegura que éstas estén limpias y saturadas de la solución desinfectante. Puede colocarse una jerga limpia y seca para eliminar el exceso del líquIdo de las suelas de los zapatos."
+			}, {
+				"QuestionId": "6",
+				"QuestionText": "Se cuenta en los accesos con dispensadores de alcohol al 60% o gel desinfectante base alcohol al 60%."
+			}, {
+				"QuestionId": "7",
+				"QuestionText": "Se cuenta con sensores de distancia (termómetros o cámaras infrarrojas) para la determinación de la temperatura corporal."
+			}, {
+				"QuestionId": "8",
+				"QuestionText": "Se cuenta con un área de estancia específica para casos detectados con temperatura corporal mayor a 37.5 °C."
+			},
+
+			{
+				"QuestionId": "9",
+				"QuestionText": "Se cuenta en los accesos de las áreas comunes con lavamanos con jabón, agua y toallas de papel desechable, o en su caso, con dispensadores de alcohol al 60% o gel desinfectante base alcohol al 60%."
+			}, {
+				"QuestionId": "10",
+				"QuestionText": "Para el caso de vestIdores o casilleros, se cuenta con señalizaciones o marcas en el piso indicando el lugar que podrá ocupar la persona trabajadora, respetando siempre la distancia mínima de 1.5 metros entre personas."
+			}, {
+				"QuestionId": "11",
+				"QuestionText": "Para el caso de cafeterías o comedores, se cuenta con barreras físicas en la misma mesa separando a un comensal de otro (las barreras separan el frente y los laterales de cada persona trabajadora), así mismo, la distancia entre mesas asegura la distancia mínima entre personas trabajadoras de 1.5 metros."
+			}, {
+				"QuestionId": "12",
+				"QuestionText": "En caso de contar con sistemas de extracción en áreas comunes se deberá vigilar que funcionan adecuadamente y cuentan con cambios de filtros acorde a lo establecIdo por el proveedor."
+			}, {
+				"QuestionId": "13",
+				"QuestionText": "Se cuenta con señalización en piso o en asientos de los espacios que deberán ocupar las personas trabajadoras en las salas de reuniones o áreas de espera, cuIdando la distancia de al menos 1.5 metros entre personas."
+			}, {
+				"QuestionId": "14",
+				"QuestionText": "En áreas comunes se favorece la ventilación natural (vestIdores, casilleros, comedores, cafeterías, salas de reuniones, salas de espera o recepción, etc.)."
+			},
+
+			{
+				"QuestionId": "15",
+				"QuestionText": "En los espacios donde se encuentran concentrados dos o más personas trabajadoras a menos de 1.5 metros, las áreas de trabajo se encuentran delimitadas por barreras físicas protegiendo el frente y laterales de las personas trabajadoras."
+			}, {
+				"QuestionId": "16",
+				"QuestionText": "Cuenta con señalizaciones o marcas en el piso indicando los lugares de trabajo, respetando siempre la distancia mínima entre cada puesto de trabajo de al menos 1.5 metros."
+			}, {
+				"QuestionId": "17",
+				"QuestionText": "En caso de contar con sistemas de extracción en áreas administrativas se deberá vigilar que funcionan adecuadamente y cuentan con cambios de filtros acorde a lo establecIdo por el proveedor."
+			}, {
+				"QuestionId": "18",
+				"QuestionText": "Las personas trabajadoras cuentan con dispensadores de alcohol al 60% o gel desinfectante base alcohol al 60%."
+			}, {
+				"QuestionId": "19",
+				"QuestionText": "En áreas administrativas se favorece la ventilación natural en los lugares que es posible."
+			},
+
+			{
+				"QuestionId": "20",
+				"QuestionText": "En caso de que el proceso productivo lo permita, las estaciones de trabajo se delimitan con barreras físicas lavables, fijas, móviles, colgantes, etc., en caso contrario, las estaciones de trabajo se delimitan con señalizaciones o marcas en el piso asegurando la distancia mínima de 1.5 metros entre trabajadores."
+			}, {
+				"QuestionId": "21",
+				"QuestionText": "Si la estación de trabajo lo permite, el trabajador cuenta con dispensadores de alcohol al 70% o gel desinfectante base alcohol al 70% en su lugar de trabajo; en caso contrario, los dispensadores de desinfectantes se ubican en los accesos al proceso productivo."
+			}, {
+				"QuestionId": "22",
+				"QuestionText": "En caso de contar con sistemas de extracción en estas áreas, estos funcionan adecuadamente y cuentan con cambios de filtros acorde a lo establecIdo por el proveedor. Si el centro de trabajo no cuenta con estos sistemas, deberá seleccionar No Aplica en la columna “controles de riesgo”."
+			}, {
+				"QuestionId": "23",
+				"QuestionText": "Se favorece la ventilación natural en los lugares que es posible."
+			},
+
+			{
+				"QuestionId": "24",
+				"QuestionText": "Los  sanitarios  cuentan  con  lavabos  en  condiciones  adecuadas  de operación (son funcionales y cuentan con agua y jabón)."
+			}, {
+				"QuestionId": "25",
+				"QuestionText": "Se cuenta con dispensadores de toallas de papel desechables."
+			}, {
+				"QuestionId": "26",
+				"QuestionText": "En los sanitarios se favorece la ventilación natural."
+			}
+		]
+	}, {
+		"Id": "1",
+		"SectionId": "3",
+		"SectionName": "MedIdas administrativas u organizacionales",
+		"QuestionsSet": [
+
+			{
+				"QuestionId": "27",
+				"QuestionText": "Se cuenta con protocolos de acceso con filtro sanitario que incluya la determinación de la temperatura corporal al ingreso y egreso de la empresa. En caso de no ser posible determinar la temperatura corporal al egreso de las instalaciones, ésta deberá tomarse antes de que concluya el turno en las estaciones de trabajo donde se ubican los trabajadores."
+			}, {
+				"QuestionId": "28",
+				"QuestionText": "Cuenta con lineamientos para el control de visitas, proveedores y contratistas en materia de higiene, sana distancia, uso obligado de cubrebocas que debe seguirse al ingreso, permanencia y salIda del lugar."
+			},
+
+			{
+				"QuestionId": "29",
+				"QuestionText": "Se facilita el teletrabajo a las personas que, por sus condiciones de salud, edad avanzada, embarazo o lactancia lo ameriten."
+			}, {
+				"QuestionId": "30",
+				"QuestionText": "Si el teletrabajo no es posible, se cuenta con horarios escalonados de ingreso, modificación de turnos, horarios flexibles u otra acción que evite concentraciones de personas trabajadoras en las instalaciones en determinados horarios y espacios de trabajo."
+			}, {
+				"QuestionId": "31",
+				"QuestionText": "Las reuniones de trabajo se realizan preferentemente por teléfono o vIdeoconferencia, en caso contrario, se cuIda la sana distancia, higiene respiratoria, limpieza y desinfección del lugar, mesas, sillas y objetos de uso común, antes y después de cada reunión."
+			}, {
+				"QuestionId": "32",
+				"QuestionText": "Para el caso de cafeterías o comedores, el personal de caja, cocina y meseros, cuentan con cabello recogIdo y cubrebocas."
+			}, {
+				"QuestionId": "33",
+				"QuestionText": "En caso de no contar con barreras físicas, se  implementan horarios escalonados en comedor, casilleros, vestIdores, cafeterías, etc., que eviten aglomeración de personas trabajadoras."
+			}, {
+				"QuestionId": "34",
+				"QuestionText": "Se limita la realización de eventos sociales."
+			}, {
+				"QuestionId": "35",
+				"QuestionText": "Cuenta con protocolos de limpieza y desinfección diaria de áreas, superficies, objetos de contacto y de uso común, que incluyen lavar con agua, jabón y desinfectar con una solución de hipoclorito de sodio al 0.5% (equivalente a 5000 ppm)."
+			}, {
+				"QuestionId": "36",
+				"QuestionText": "Cuenta con mecanismos de supervisión o verificación del cumplimiento a los lineamientos de sana distancia (tecnológicos, visuales, documentales, etc.) que deben seguir las personas trabajadoras."
+			}, {
+				"QuestionId": "37",
+				"QuestionText": "Se supervisa que las soluciones de agua y jabón no se mezclen con algún otro producto químico."
+			}, {
+				"QuestionId": "38",
+				"QuestionText": "Se supervisa que la solución de hipoclorito de sodio a 0.5% (5000 ppm) se prepare de manera diaria y que no se mezcle con ninguna otra sustancia química; en caso de contar con tiras reactivas para la determinación de la concentración de hipoclorito de sodio en ppm, podrá almacenarse la solución siempre y cuando se asegure no disminuir su concentración en más de un 10%."
+			}, {
+				"QuestionId": "39",
+				"QuestionText": "Se supervisa que los dispensadores de alcohol gel al 60% cuenten con las cantIdades necesarias por turno de trabajo."
+			}, {
+				"QuestionId": "40",
+				"QuestionText": "Se supervisa que los dispensadores de toallas desechables de papel cuenten siempre con disponibilIdad para las personas trabajadoras."
+			}, {
+				"QuestionId": "41",
+				"QuestionText": "Cuenta con el suficiente número de contenedores (botes de basura) en diversos puntos para arrojar cubrebocas usados o maltratados."
+			}, {
+				"QuestionId": "42",
+				"QuestionText": "Promueve y  comunica  una  buena  higiene  respiratoria  en el  lugar  de trabajo, tal como cubrir la boca y nariz con el codo flexionado o un pañuelo de papel al toser o estornudar."
+			}, {
+				"QuestionId": "43",
+				"QuestionText": "Recomienda a la persona trabajadora que priorice las opciones de movilIdad (traslado de casa al trabajo y viceversa) que faciliten mantener la distancia interpersonal, promoviendo el uso obligado de cubrebocas y protección ocular o facial durante el trayecto."
+			}, {
+				"QuestionId": "44",
+				"QuestionText": "En caso de que la empresa cuente con transporte para sus personas trabajadoras, se tienen consIderadas medIdas que minimizan el riesgo de exposición, tales como: limpieza y desinfección de la unIdad antes de subir a las personas trabajadoras, determinación de temperatura corporal antes de subir al autobús (en caso de que se Identifique alguna persona trabajadora con temperatura mayor a 37.5 °C no se le permitirá subir, se le solicitará regresar a casa, se tomará registro de sus datos para comunicarlo al área de recursos humanos y servicio médico de la empresa, quien posteriormente lo contactará para dar indicaciones de cuIdados de la salud), se otorga desinfectante de manos a las personas trabajadoras al momento de subir al transporte y se refiere el uso obligado de cubrebocas y protección ocular o facial durante el trayecto."
+			}, {
+				"QuestionId": "45",
+				"QuestionText": "Cuenta con un código de ética que establece lineamientos de no discriminación para las personas que hayan tenIdo COVId-19 o convivIdo con algún familiar sospechoso o confirmado."
+			}, {
+				"QuestionId": "46",
+				"QuestionText": "Se cuenta con lineamientos de restricción de viajes locales o internacionales; en caso de que sea necesario viajar, se cuenta con los lineamientos sobre las medIdas preventivas que deben cumplirse antes, durante y posterior al viaje."
+			}, {
+				"QuestionId": "47",
+				"QuestionText": "Se informa a las personas trabajadoras que el uso de accesorios (joyería, corbatas) puede ser un reservatorio de virus y demás microorganismos."
+			}, {
+				"QuestionId": "48",
+				"QuestionText": "Se   tienen   lineamientos   sobre   no   compartir   entre   las   personas trabajadoras: celular, utensilios de cocina, EPP, papelería, plumas, etc."
+			}, {
+				"QuestionId": "49",
+				"QuestionText": "Se tienen lineamientos para que las personas trabajadoras cuIden la distancia social con sus compañeros de al menos 1.5 metros, así como en aquellos lugares donde no sea factible, se haga uso obligado de cubrebocas y protección ocular o facial."
+			}, {
+				"QuestionId": "50",
+				"QuestionText": "Se promueve a través de comunicados (escritos o digitales) el lavado de manos frecuente, higiene respiratoria, sana distancia, etc."
+			}
+		]
+	}, {
+		"Id": "1",
+		"SectionId": "4",
+		"SectionName": "Equipo de protección personal",
+		"QuestionsSet": [
+
+			{
+				"QuestionId": "EQUIPO DE PROTECCIÓN PERSONAL",
+				"QuestionText": ""
+			}, {
+				"QuestionId": "51",
+				"QuestionText": "Se le proporciona a la persona trabajadora el equipo de protección personal acorde al tipo de factor de riesgo al que se encuentra expuesto durante su jornada laboral."
+			}, {
+				"QuestionId": "52",
+				"QuestionText": "Durante el tiempo que la persona trabajadora no tiene exposición a agentes químicos contaminantes del ambiente laboral, se le proporciona cubre bocas y protección ocular y facial o se cuIda la sana distancia de al menos 1.5 metros entre personas trabajadoras."
+			}, {
+				"QuestionId": "53",
+				"QuestionText": "Se les proporciona a todos las personas trabajadoras del centro de trabajo cubrebocas y protección ocular o facial, según lo permita el puesto de trabajo; en aquellas áreas que por su tamaño y distribución de equipos sea complejo, se mantienen distancias mínimas de al menos 1.5 metros entre las personas trabajadoras."
+			}, {
+				"QuestionId": "54",
+				"QuestionText": "Para el caso de personas trabajadoras que tienen contacto con público, se les proporciona cubrebocas y protección ocular o facial (el protector facial u ocular puede omitirse si se cuenta con barreras físicas y se mantiene la distancia de 1.5 metros entre persona trabajadora y cliente)."
+			}, {
+				"QuestionId": "55",
+				"QuestionText": "Las protecciones oculares o faciales que se otorgan a la persona trabajadora permiten amplia visibilIdad, preferentemente con protección lateral y superior y son antiempañantes."
+			}, {
+				"QuestionId": "56",
+				"QuestionText": "Todas las personas trabajadoras tienen acceso a agua, jabón, toallas desechables de papel, así como a alcohol al 60% o gel desinfectante para la manipulación del equipo de protección personal."
+			}
+		]
+	}, {
+		"Id": "1",
+		"SectionId": "5",
+		"SectionName": "Información y capacitación",
+		"QuestionsSet": [
+
+			{
+				"QuestionId": "INFORMACIÓN Y CAPACITACIÓN",
+				"QuestionText": ""
+			}, {
+				"QuestionId": "57",
+				"QuestionText": "Fomentar y brindar confianza para que el personal se retire ante la presencia de síntomas de la enfermedad, a través de la simplificación de trámites de incapacIdad y la eliminación de descuentos por ausencia."
+			}, {
+				"QuestionId": "58",
+				"QuestionText": "Se  informa  sobre  la  estrategia  de  retorno  a  activIdades  y  la  Nueva NormalIdad, así como de sus implicaciones en el centro de trabajo."
+			}, {
+				"QuestionId": "59",
+				"QuestionText": "Se tiene un programa de capacitación para el personal directivo o gerencial de las acciones a realizar en la empresa para prevenir y evitar cadenas de contagio por COVId-19; puede hacerse uso del material de CLIMSS que se ubica en la liga siguiente: https://climss.imss.gob.mx/."
+			}, {
+				"QuestionId": "60",
+				"QuestionText": "Cuenta con un programa de capacitación y difusión de información que incluya hábitos saludables, estilo de vIda, familia, apoyo para el control de enfermedades crónico-degenerativas para evitar complicaciones por COVId-19, higiene de manos, higiene respiratoria, higiene del vestIdo y sana distancia."
+			}, {
+				"QuestionId": "61",
+				"QuestionText": "En caso de contar con los recursos tecnológicos, da priorIdad a éstos para llevar a cabo la capacitación a distancia. Si el centro de trabajo no cuenta con estos recursos, deberá seleccionar No Aplica."
+			}, {
+				"QuestionId": "62",
+				"QuestionText": "Cuando la capacitación se realiza de manera presencial se asegura la sana distancia entre las personas trabajadoras, el uso de cubrebocas durante todo el proceso de capacitación y se provee de gel antibacterial al ingreso."
+			}, {
+				"QuestionId": "63",
+				"QuestionText": "Se promueve entre la población trabajadora los principios rectores de este documento, con especial énfasis en la “No Discriminación” para las personas que hayan tenIdo COVId-19 o hayan convivIdo con algún familiar que lo tenga o haya tenIdo."
+			}
+		]
+	}, {
+		"Id": "1",
+		"SectionId": "6",
+		"SectionName": "Promoción a la salud",
+		"QuestionsSet": [
+
+			{
+				"QuestionId": "PROMOCIÓN A LA SALUD",
+				"QuestionText": ""
+			}, {
+				"QuestionId": "64",
+				"QuestionText": "Cuenta con un programa de salud física y mental para las personas trabajadoras, referente a los cuIdados de COVId-19 que incluye un protocolo para manejo de personas trabajadoras sospechosas, contactos, confirmados y su reincorporación laboral; así como de promoción, prevención, atención y seguimiento de los estados de salud en las personas trabajadoras que pueden generar complicaciones por COVId-19."
+			}, {
+				"QuestionId": "65",
+				"QuestionText": "Cuenta con un instrumento para Identificar síntomas y contactos en el trabajo y comunitarios."
+			}, {
+				"QuestionId": "66",
+				"QuestionText": "Cuenta con herramientas que permitan Identificar personas trabajadoras con factores de riesgo para complicaciones por COVId-19. Los centros de trabajo podrán hacer uso de la herramienta en el enlace http://imss.gob.mx/covId-19/calculadora-complicaciones"
+			}, {
+				"QuestionId": "67",
+				"QuestionText": "Cuenta con un plan de supervisión y evaluación del programa de salud física y mental para las personas trabajadoras, referente a los cuIdados de COVId-19."
+			}, {
+				"QuestionId": "68",
+				"QuestionText": "Cuenta con lineamientos para Identificar y derivar a las personas trabajadoras que tengan problemas de salud mental al servicio médico o psicológico de la empresa. En caso de no contar con éste se les refiere a los servicios médicos de su centro de segurIdad social."
+			}, {
+				"QuestionId": "69",
+				"QuestionText": "Cuenta con lineamientos para la Identificación de factores de riesgo psicosocial, como violencia laboral, carga mental, entorno organizacional, etc."
+			}, {
+				"QuestionId": "70",
+				"QuestionText": "Realiza exámenes médicos periódicos que permiten la prevención, atención y control de problemas de salud o da las facilIdades para que la persona trabajadora pueda acudir a atención médica fuera de la empresa."
+			}, {
+				"QuestionId": "71",
+				"QuestionText": "Cuenta con una guía de actuación para los casos en que una persona trabajadora manifieste síntomas de COVId-19, con la finalIdad de protegerlo, así como al resto de las personas trabajadoras y su familia, que incluye lineamientos para manejo de personas trabajadoras sospechosas, contactos, confirmados y su reincorporación al trabajo."
+			}, {
+				"QuestionId": "72",
+				"QuestionText": "Se promueven en las personas trabajadoras medIdas de protección en el transporte público y trayecto, como son la práctica de higiene respiratoria, uso de cubrebocas obligatorio, mantener una sana distancia y hábitos de higiene (no tocarse la cara, con énfasis en nariz, boca y ojos)."
+			}
+		]
+	}, {
+		"Id": "1",
+		"SectionId": "7",
+		"SectionName": "Sistema de gestión",
+		"QuestionsSet": [
+
+			{
+				"QuestionId": "SISTEMA DE GESTIÓN",
+				"QuestionText": ""
+			}, {
+				"QuestionId": "73",
+				"QuestionText": "El Sistema de Gestión incluye contingencias sanitarias como amenaza en el caso de hacer uso de FODA o alguna otra herramienta para el análisis de contexto."
+			}, {
+				"QuestionId": "74",
+				"QuestionText": "El Sistema de Gestión incluye la Identificación de peligros y evaluación de riesgos relativos a contingencias sanitarias."
+			}, {
+				"QuestionId": "75",
+				"QuestionText": "El centro de trabajo cuenta con un procedimiento estructurado de respuesta ante contingencias sanitarias con asignación de responsables y al menos recursos materiales y financieros."
+			}, {
+				"QuestionId": "76",
+				"QuestionText": "En caso de poseer un Plan de ContinuIdad de Negocios (BCP), se tiene consIderado el riesgo de contingencias sanitarias."
+			}, {
+				"QuestionId": "77",
+				"QuestionText": "El mapa de riesgos del centro de trabajo incluye las áreas, puestos de trabajo y/o activIdades con riesgos biológicos."
+			}, {
+				"QuestionId": "78",
+				"QuestionText": "El diagnóstico de segurIdad y salud en el trabajo contempla los agentes biológicos capaces de modificar las condiciones del medio ambiente de trabajo que, por sus propiedades, concentración, nivel y tiempo de exposición   o   acción,   pueden   alterar   la   salud   de   las   personas trabajadoras, así como las fuentes que los generan."
+			}, {
+				"QuestionId": "79",
+				"QuestionText": "Se cuenta con un programa de segurIdad y salud en el trabajo o relación de acciones preventivas y correctivas de segurIdad y salud en el trabajo, para contingencias sanitarias."
+			}, {
+				"QuestionId": "80",
+				"QuestionText": "El Programa Específico de Protección Civil contempla acciones ante riesgos sanitarios."
+			}, {
+				"QuestionId": "81",
+				"QuestionText": "El centro de trabajo tiene adhesión a un Grupo de Ayuda Mutua que dé soporte ante riesgos sanitarios."
+			}, {
+				"QuestionId": "82",
+				"QuestionText": "El centro de trabajo posee un listado de teléfonos de emergencia que incluya las instancias de contacto en caso de emergencias sanitarias."
+			}
+		]
+	}, {
+		"Id": "4",
+		"SectionId": "1",
+		"SectionName": "Planeación y vigilancia",
+		"QuestionsSet": [{
+			"QuestionId": "1",
+			"QuestionText": "Se designa un comité o persona responsable de la implementación, seguimiento y supervisión de las medIdas para la Nueva NormalIdad en el marco del COVId-19. Dicho comité o persona responsable deberá realizar las siguientes activIdades:"
+		}, {
+			"QuestionId": "1.1",
+			"QuestionText": " Lleva a cabo la categorización del centro de trabajo, con el fin de Identificar las medIdas que deberán ser implementadas."
+		}, {
+			"QuestionId": "1.2",
+			"QuestionText": " Se   cerciora   que   las   estrategias   generales   de   control   son correctamente implementadas."
+		}, {
+			"QuestionId": "1.3",
+			"QuestionText": " Se mantiene informado de las indicaciones de la autorIdad federal para, en su caso, comunicar a la población trabajadora sobre nuevas medIdas que deban implementarse."
+		}, {
+			"QuestionId": "1.4",
+			"QuestionText": " Se Identifica a la población en situación de vulnerabilIdad para la implementación de las medIdas de protección necesarias."
+		}, {
+			"QuestionId": "1.5",
+			"QuestionText": " Se Identifica a la población en situación de vulnerabilIdad para la implementación de las medIdas de protección necesarias."
+		}]
+	}]
+}

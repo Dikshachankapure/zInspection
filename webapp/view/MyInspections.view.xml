@@ -1,0 +1,71 @@
+<mvc:View controllerName="poc.zinspection.controller.MyInspections" xmlns:f="sap.f" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout" xmlns="sap.m" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<f:DynamicPage id="dynamicPageId" headerExpanded="{/headerExpanded}" toggleHeaderOnTitleClick="{/titleClickable}">
+				<!-- DynamicPage Title -->
+				<f:title>
+					<f:DynamicPageTitle>
+						<f:heading>
+							<Title text="{i18n>InspectionsTitle}"/>
+						</f:heading>
+						<f:expandedContent>
+							<Label text="{i18n>AssignedTo}: " />
+							<Label text="{userapi>/firstName} {userapi>/lastName}"/>
+						</f:expandedContent>
+						<!--<f:snappedContent>
+										<Label text="This is a subheading"/>
+									</f:snappedContent>
+									<f:snappedTitleOnMobile>
+										<Title text="Header Title On Phone"/>
+									</f:snappedTitleOnMobile>-->
+						<f:actions>
+							<Button text="{i18n>CreateInspections}" type="Emphasized" press="toggleAreaPriority"/>
+						</f:actions>
+					</f:DynamicPageTitle>
+				</f:title>
+				<!-- DynamicPage Content -->
+				<f:content>
+					<IconTabBar id="itb1" selectedKey="key3" upperCase="true" class="sapUiResponsivePadding--header sapUiResponsivePadding--content">
+						<items>
+							<IconTabFilter id="tab1" text="{i18n>AssignedInspections}" key="key1">
+								<l:VerticalLayout class="sapUiContentPadding" width="100%">
+									<l:content>
+										<List id="AssignedInspections" items="{/InspectionsSet}" showUnread="true">
+											<ObjectListItem title="{Title}" type="Navigation" press="onListItemPress" >
+												<firstStatus>
+													<ObjectStatus text="{i18n>Status} : {InspectionStatus}" state="{path: 'InspectionStatus',formatter: '.formatter.status'}"/>
+												</firstStatus>
+												<secondStatus>
+													<ObjectStatus text="{i18n>DueDate} : {DueDate}" state="{path: 'InspectionStatus',formatter: '.formatter.status'}"/>
+												</secondStatus>
+												<ObjectAttribute text="{Type}"/>
+												<ObjectAttribute text="{Location}"/>
+												<ObjectAttribute text="{InspectionId}" visible="false"/>
+											</ObjectListItem>
+										</List>
+									</l:content>
+								</l:VerticalLayout>
+							</IconTabFilter>
+							<IconTabFilter id="tab2" text="{i18n>CompletedInspections}" key="key2">
+								<List id="CompleteInspections" items="{/InspectionsSet}">
+									<ObjectListItem title="{Title}" type="Navigation" press="onListItemPress">
+										<firstStatus>
+										<ObjectStatus text="{i18n>Status} : {InspectionStatus}" state="{path: 'InspectionStatus',formatter: '.formatter.status'}"/>
+										</firstStatus>
+										<secondStatus>
+											<ObjectStatus text="{i18n>DueDate}: {DueDate}" state="{path: 'InspectionStatus',formatter: '.formatter.status'}"/>
+										</secondStatus>
+										<ObjectAttribute text="{Type}"/>
+										<ObjectAttribute text="{Location}"	/>
+										<ObjectAttribute text="{InspectionId}" visible="false"/>
+									</ObjectListItem>
+								</List>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+				</f:content>
+			</f:DynamicPage>
+		</App>
+	</Shell>
+</mvc:View>

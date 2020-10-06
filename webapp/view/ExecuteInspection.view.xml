@@ -1,0 +1,182 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.f"
+	controllerName="poc.zinspection.controller.ExecuteInspection" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:form="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout">
+	<Shell>
+		<App>
+			<f:DynamicPage id="dynamicPageId">
+				<!-- DynamicPage Title -->
+				<f:title>
+					<f:DynamicPageTitle>
+						<f:heading>
+							<Title text="Covid-19 Checklist"/>
+						</f:heading>
+						<f:expandedContent>
+							<Label text="Safety Inspection"/>
+						</f:expandedContent>
+						<f:expandedContent>
+							<ProgressIndicator id="indinspectionprogress" class="sapUiSmallMarginBottom" percentValue="{progress}" displayValue="0%" showValue="true"/>
+						</f:expandedContent>
+						<f:actions></f:actions>
+						<f:actions>
+							<Label id="lblDuration" visible="true" class="lblduration" text="{i18n>Duration}"></Label>
+							<Button text="{i18n>StartInspection}" id="btnStartInspection" type="Emphasized" press="onPressStartInspection"/>
+						</f:actions>
+					</f:DynamicPageTitle>
+				</f:title>
+				<!-- DynamicPage Content -->
+				<f:content>
+					<Text id="txtQueId" visible="false"/>
+					<Table id="tblComments" items="{path:'/CommentsSet'}" class="sapUiResponsiveMargin sapUiNoMarginTop" noDataText="{i18n>NoDataFound}" width="auto">
+						<columns>
+							<Column><Text text="Id"/></Column>
+							<Column><Text text="Section Id"/></Column>
+							<Column><Text text="Question Id"/></Column>
+							<Column><Text text="Comment"/></Column>
+							<Column><Text text="Location"/></Column>
+						</columns>
+						<items>
+							<ColumnListItem vAlign="Middle" type="Active">
+								<cells>
+									<Text text="{Id}"/>
+									<Text text="{SectionId}"/>
+									<Text text="{QuestionId}"/>
+									<Text text="{Comment}"/>
+									<Text text="{Location}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+					<Table id="tblPhotoVideo" items="{path:'/PhotoVideoSet'}" class="sapUiResponsiveMargin sapUiNoMarginTop" noDataText="No Data Found" width="auto">
+						<columns>
+							<Column><Text text="Id"/></Column>
+							<Column><Text text="Section Id"/></Column>
+							<Column><Text text="Question Id"/></Column>
+							<Column><Text text="FileName"/></Column>
+							<Column><Text text="DocumentId"/></Column>
+							<Column><Text text="Location"/></Column>
+						</columns>
+						<items>
+							<ColumnListItem vAlign="Middle" type="Active">
+								<cells>
+									<Text text="{Id}"/>
+									<Text text="{SectionId}"/>
+									<Text text="{QuestionId}"/>
+									<Text text="{FileName}"/>
+									<Text text="{DocumentId}"/>
+									<Text text="{Location}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+					<Table id="tblActions" items="{path:'/ActionsSet'}" class="sapUiResponsiveMargin sapUiNoMarginTop" noDataText="No Data Found" width="auto">
+						<columns>
+							<Column><Text text="Id"/></Column>
+							<Column><Text text="Section Id"/></Column>
+							<Column><Text text="Question Id"/></Column>
+							<Column><Text text="Action Description"/></Column>
+							<Column><Text text="Action Responsible"/></Column>
+							<Column><Text text="Due Date"/></Column>
+							<Column><Text text="Solved"/></Column>
+							<Column><Text text="Location"/></Column>
+						</columns>
+						<items>
+							<ColumnListItem vAlign="Middle" type="Active">
+								<cells>
+									<Text text="{Id}"/>
+									<Text text="{SectionId}"/>
+									<Text text="{QuestionId}"/>
+									<Text text="{ActionDescription}"/>
+									<Text text="{ActionResponsible}"/>
+									<Text text="{DueDate}"/>
+									<Text text="{Solved}"/>
+									<Text text="{Location}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+					<Table id="tblLocations" items="{path:'/LocationSet'}" class="sapUiResponsiveMargin sapUiNoMarginTop" noDataText="No Data Found"
+						width="auto">
+						<columns>
+							<Column><Text text="Id"/></Column>
+							<Column><Text text="Section Id"/></Column>
+							<Column><Text text="Question Id"/></Column>
+							<Column><Text text="Location"/></Column>
+							<Column><Text text="isAdded"/></Column>
+						</columns>
+						<items>
+							<ColumnListItem vAlign="Middle" type="Active">
+								<cells>
+									<Text text="{Id}"/>
+									<Text text="{SectionId}"/>
+									<Text text="{QuestionId}"/>
+									<Text text="{Location}"/>
+									<Text text="{isAdded}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+					<Table class="sapUiResponsiveMargin sapUiNoMarginTop" growing="true" growingScrollToLoad="false" id="tblSections" growingThreshold="10"
+						noDataText="{i18n>NoDataFound}" width="auto" items="{path:'/results',parameters: { 'expand': 'QuestionsSet' }, templateShareable:false}">
+						<columns>
+							<Column mergeDuplicates="true"></Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Inactive">
+								<cells>
+									<Panel id="panel1" expandable="false" headerText="{SectionId} . {SectionName}" expanded="true" class="sapUiContentPadding">
+										<content>
+											<Text visible="false" text="{Id}"/>
+											<Text visible="false" text="{SectionId}"/>
+											<Table id="tblQuestions" items="{path:'QuestionsSet'}" class="sapUiResponsiveMargin sapUiNoMarginTop"
+												noDataText="{worklistView]/tableNoDataText}" width="auto">
+												<columns>
+													<Column visible="false"></Column>
+													<Column width="60%"></Column>
+													<Column minScreenWidth="Tablet" demandPopin="true" width="20%"></Column>
+													<Column minScreenWidth="Tablet" demandPopin="true" width="5%"></Column>
+													<Column minScreenWidth="Tablet" demandPopin="true" width="5%"></Column>
+													<Column minScreenWidth="Tablet" demandPopin="true" width="5%"></Column>
+													<Column minScreenWidth="Tablet" demandPopin="true" width="5%"></Column>
+												</columns>
+												<items>
+													<ColumnListItem type="Inactive">
+														<cells>
+															<Text text="{QuestionId}"/>
+															<Text text="{QuestionId}. {QuestionText}"/>
+															<SegmentedButton selectedItem="none" selectionChange="onSelectionChange">
+																<items>
+																	<SegmentedButtonItem text="{i18n>Yes}" key="Y"/>
+																	<SegmentedButtonItem text="{i18n>No}" key="N"/>
+																	<SegmentedButtonItem text="{i18n>NA}" key="A"/>
+																</items>
+															</SegmentedButton>
+															<Button id="btnaction" type="Emphasized" press="onAction" icon="sap-icon://add">
+																<dependents>
+																	<core:Fragment fragmentName="poc.zinspection.fragments.ActionSheet" type="XML"/>
+																</dependents>
+															</Button>
+															<Button id="btnComment" type="Emphasized" visible="false" press="onPressDetailComment" icon="sap-icon://notification-2" tooltip="{i18n>Comment}"></Button>
+															<Button id="btnPhoto" type="Emphasized" visible="false" press="onPressPhotoVideo" icon="sap-icon://camera" tooltip="{i18n>Photo/Video}"></Button>
+															<Button id="btnAction" type="Emphasized" visible="false" press="onPressDetailAction" icon="sap-icon://action" tooltip="{i18n>Action}"></Button>
+														</cells>
+													</ColumnListItem>
+												</items>
+											</Table>
+										</content>
+									</Panel>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</f:content>
+				<f:footer>
+					<OverflowToolbar>
+						<ToolbarSpacer/>
+						<Button id="btnsubmit" enabled="false" type="Emphasized" text="{i18n>Submit}"/>
+						<Button id="btnCancel" enabled="false" type="Default" press="onCancel" text="{i18n>Cancel}"/>
+					</OverflowToolbar>
+				</f:footer>
+			</f:DynamicPage>
+		</App>
+	</Shell>
+</mvc:View>

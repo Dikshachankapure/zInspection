@@ -1,0 +1,39 @@
+{
+	"InspectionsSet": [{
+		"InspectionId": "1",
+		"Title": "Covid-19 Checklist",
+		"Status": "Assigned",
+		"Type": "Safety Inspection",
+		"Location": "Golden Nugget Mine Crusher",
+		"Inspector": "Maurice Loillet",
+		"DueDate": "27/07/2020",
+		"InspectionStatus":"Planned"
+	}, {
+		"InspectionId": "2",
+		"Title": "Covid-19 Checklist 2",
+		"Status": "Assigned",
+		"Type": "Safety Inspection",
+		"Location": "Golden Nugget Mine Crusher",
+		"Inspector": "Maurice Loillet",
+		"DueDate": "27/07/2020",
+		"InspectionStatus":"Planned"
+	}, {
+		"InspectionId": "3",
+		"Title": "Covid-19 Checklist 3",
+		"Status": "Complete",
+		"Type": "Safety Inspection",
+		"Location": "Golden Nugget Mine Crusher",
+		"Inspector": "Maurice Loillet",
+		"DueDate": "25/05/2020",
+		"InspectionStatus":"Overdue"
+	}, {
+		"InspectionId": "4",
+		"Title": "Covid-19 Checklist 4",
+		"Status": "Assigned",
+		"Type": "Safety Inspection",
+		"Location": "Golden Nugget Mine Crusher",
+		"Inspector": "Maurice Loillet",
+		"DueDate": "25/05/2020",
+		"InspectionStatus":"Overdue"
+	}]
+}

@@ -1,0 +1,85 @@
+{
+	"QuestionnairesSet": [
+		{
+		"Id": "000001",
+		"Title": "Covid-19 Checklist",
+		"Type": "Safety",
+		"Status":"In Progress",
+		"AssignedInspector": "Maurice Loillet",
+		"Sections": [{
+			"SectionId": "1",
+			"SectionName": "Process and procedures",
+			"SectionDescription": "Complete the section together with the site responsible",
+			"Questions": [
+				{
+				"QuestionId": "1",
+				"QuestionText": "Is there a designated contact person for workers to talk about any concerns relevant to CoVID-19?"
+			}, 
+			{
+				"QuestionId": "2",
+				"QuestionText": "Is there clear communication procedure/channel between workers and management?"
+			}, 
+			{
+				"QuestionId": "3",
+				"QuestionText": "Is there a central place for workers to access CoVID-19 information relevant to the workplace?"
+			}, 
+			{
+				"QuestionId": "4",
+				"QuestionText": "Are workers aware of these relevant processes and procedures?"
+			}, 
+			{
+				"QuestionId": "5",
+				"QuestionText": "Is there an emergency plan to ensure business/work continuity if there is a suspected or confimed outbreak of CoVID-19 in the workplace?"
+			}, 
+			{
+				"QuestionId": "6",
+				"QuestionText": "Is there a protocol in place for workplace reopening after an outbreak or quarantine period?"
+			}]
+		}, {
+			"SectionId": "2",
+			"sectionName": "Workplace layout and arrangement",
+			"sectionDescription": "",
+			"questions": [{
+				"QuestionId": "1",
+				"QuestionText": "Are there posters around the workplace reminding workers to keep at least 1.5 metres distance apart?"
+			}, {
+				"QuestionId": "2",
+				"QuestionText": "Are there signs at the entrances to lifts and meeting rooms to ensure the maximum safe capacity is not exceeded?"
+			}, {
+				"QuestionId": "3",
+				"QuestionText": "Are work stations, deks and tables in staffrooms arranged in the way to comply wth social distancing?"
+			}, {
+				"QuestionId": "4",
+				"QuestionText": "Is there designated person to monitor physical distancing?"
+			}, {
+				"QuestionId": "5",
+				"QuestionText": "Are there information signs about the symptoms of CoVID-19 in the workplace?"
+			}, {
+				"QuestionId": "6",
+				"QuestionText": "Is there a protocol in place for workplace reopening after an outbreak or quarantine period?"
+			}]
+		}, {
+			"SectionId": "3",
+			"SectionName": "Cleaning and hygiene",
+			"SectionDescription": "",
+			"Questions": [{
+				"QuestionId": "1",
+				"QuestionText": "Is there hand sanitising station at entry and exit points and around the workplace?"
+			}, {
+				"QuestionId": "2",
+				"QuestionText": "Are bathrooms well stocked with hand wash and paper towel?Are there signs at the entrances to lifts and meeting rooms to ensure the maximum safe capacity is not exceeded?"
+			}, {
+				"QuestionId": "3",
+				"QuestionText": "Are workers aware of the requirement to limit physical contact with others - e.g. no shaking hands or touching object unless necessary?"
+			}, {
+				"QuestionId": "4",
+				"QuestionText": "Are areas frequented by workers or others (e.g. visitors to your premises) are cleaned at least daily with detergent or disinfectant?"
+			}, {
+				"QuestionId": "5",
+				"QuestionText": "Are frequently touched areas and sufaces cleaned several times a day with a detergent or disinfectant solution or wipe?"
+			}]
+		}]
+		}
+	]
+
+}

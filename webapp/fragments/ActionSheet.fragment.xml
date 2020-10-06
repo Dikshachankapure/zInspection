@@ -1,0 +1,5 @@
+<ActionSheet id="actionsheet" xmlns="sap.m" xmlns:core="sap.ui.core" showCancelButton="true" placement="Bottom" afterClose="onActionSheetclose">
+	<Button text="Comment" press="onPressComment"/>
+	<Button text="Photo/Video" press="onPressPhotoVideo"/>
+	<Button text="Action" press="onPressAction"/>
+</ActionSheet>

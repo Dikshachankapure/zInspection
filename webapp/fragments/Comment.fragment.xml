@@ -1,0 +1,29 @@
+<core:FragmentDefinition  xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<Dialog title="{i18n>Comment}" contentWidth="700px" horizontalScrolling="false">
+		<VBox class="sapUiSmallMargin">
+			<f:Form id="CommentForm" editable="true" ariaLabelledBy="Comment">
+				<f:layout>
+					<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4"
+						emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false"/>
+				</f:layout>
+				<f:formContainers>
+					<f:FormContainer>
+						<f:formElements>
+							<f:FormElement label="{i18n>Comment}">
+								<f:fields>
+									<TextArea id="txtcomment" width="90%"/>
+								</f:fields>
+							</f:FormElement>
+							
+						</f:formElements>
+					</f:FormContainer>
+				</f:formContainers>
+			</f:Form>
+		</VBox>
+		<buttons>
+			<Button text="{i18n>Save}" icon="sap-icon://accept" type="Emphasized" press="onSaveComment">
+			</Button>
+			<Button text="{i18n>Cancel}" type="Reject" icon="sap-icon://decline" press="OnCancelComment"></Button>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>
